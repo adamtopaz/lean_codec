@@ -1,0 +1,10 @@
+name = "lean_codec"
+version = "0.1.0"
+defaultTargets = ["lean_codec"]
+
+[[lean_lib]]
+name = "LeanCodec"
+
+[[lean_exe]]
+name = "lean_codec"
+root = "Main"
